@@ -1,0 +1,15 @@
+{
+  "name": "prime-tables",
+  "version": "1.0.0",
+  "description": "Prints an (N+1) x (N+1) multiplication table of the first N prime numbers.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}
